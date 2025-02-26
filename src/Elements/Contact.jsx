@@ -11,7 +11,7 @@ export default function Contact() {
   const [status, setStatus] = useState('');
   const [captchaValue, setCaptchaValue] = useState(null);
 
-  const RECAPTCHA_SITE_KEY = "6LdFKeMqAAAAAGi7EWTgOBIYCMC5pYLFeIV5KQyI"; // Replace with your actual site key
+  const RECAPTCHA_SITE_KEY = "6Ld9LOMqAAAAAGIF4BuAMeqkRwU71LmJfXrqGkJe"; // Replace with your actual site key
 
   const handleSubmit = async (e) => {
     e.preventDefault();
