@@ -1,0 +1,185 @@
+
+
+ .Achievement {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   margin:5%;
+
+ }
+
+ .lowerAchievement {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .Achievementblock {
+
+   height: 450px;
+   width: 400px;
+   border: 2px solid black;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   margin: 10px;
+   border-radius: 15px;
+   box-shadow: 2px 10px 5px 5px;
+   padding: 20px;
+   transition: transform 0.6s ease;
+
+   @media (max-width: 768px) {
+     width: 90%;
+     height: 350px;
+     margin-bottom: 50px;
+   }
+
+ }
+ .Achievementblock:hover {
+  transform: scale(1.1);
+  
+ }
+
+ .Achievementblock h1 {
+  font-family: cursive;
+   font-size: 40px;
+   margin: 10px;
+ }
+
+ .Achievementblock p {
+  font-family: cursive;
+   font-size: 20px;
+   margin: 10px;
+
+   @media (max-width: 768px) {
+     font-size: 15px;
+     margin: 5px;
+   }
+
+ }
+
+ .Courcework {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+
+ }
+    
+
+ .Courceworkupper {
+   display: flex;
+   flex-direction: row;
+   border-radius: 20px;
+   justify-content: center;
+   margin:1%;
+   padding: 10px;
+   transition: transform 0.9s ease;
+ }
+ .Courceworkupper:hover {
+  transform: scale(1.15);
+  margin-right:1.2%;
+  margin-left:1.2%;
+  border: 1px solid black;
+  box-shadow: 1px 2px 10px rgba(36, 34, 34, 0.619);
+  @media (max-width: 768px) {
+      transform: scale(1.0);
+    }
+ }
+
+
+ .Courceworklower {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .Courceworkblock {
+
+   height: 100%;
+   width: 450px;
+    font-family: cursive;
+    color:black;
+   display: flex;
+   flex-direction: column;
+   margin-left: 30px;
+
+   @media (max-width: 768px) {
+     width: 100%;
+     height: 100%;
+     margin-left: 10px;
+   }
+
+ }
+ .Courceworkblock h1{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family:cursive;
+
+ }
+ .Courceworkblock h3 {
+   font-size: 25px;
+   margin-top:0px;
+   font-weight: 200;
+   margin-bottom: 0px;
+   font-family: cursive;
+
+ }
+ .Courceworkblock p {
+   font-size: 15px;
+   margin-top: 10px;
+   font-weight: 100;
+   margin-bottom: 10px;
+   font-family: cursive;
+
+ }
+
+ .lineyellowbig {
+   height: 80px;
+   width: 4px;
+   margin-top: 20px;
+   background-color: rgb(177, 177, 120);
+   margin-bottom: 30px;
+
+   @media (max-width: 768px) {
+     height: 150px;
+     width: 4px;
+     margin-top: 10px;
+     background-color: rgb(177, 177, 120);
+     margin-bottom: 20px;
+   }
+
+ }
+
+ .circle {
+   width: 20px;
+   height: 20px;
+   background-color: rgb(177, 177, 120);
+   border: 10px rgb(177, 177, 120);
+   box-shadow: 2px 2px 20px 10px rgb(177, 177, 120);
+   border-radius: 200px;
+ }
+
+ .linedesign {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+ }
+ .contactd{
+  font-family: cursive;
+  display: flex;
+  color: black;
+ }
+ .contactd h1 {
+  
+  font-size: 30px;
+  font-family: cursive;
+  transition: transform 0.5s ease;
+ }
